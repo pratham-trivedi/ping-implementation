@@ -11,6 +11,6 @@ This implementation of Ping uses ICMP (Internet Control Message Protocol) to sen
 gcc -o <output> ping.c
 sudo ./<output> <siteaddress or ip>
 ```
-Change "<output>" with any name you want.
+Change "output" with any name you want.
 
 Sudo is necessary as raw socket need root privilage. 
